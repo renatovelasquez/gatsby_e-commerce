@@ -443,7 +443,7 @@ export const SelectStars = styled.div`
     color: ${colors.orange};
   }
 `
-export const Purchase = styled.div`
+export const  Purchase = styled.div`
   width: 100vw;
   height: calc(100vh - 4.5rem - 101px);
   background-color: white;
