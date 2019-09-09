@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { Jumbo } from "../components"
-import { Layout, SEO } from "../components"
+import { SEO } from "../components"
 import styled from "styled-components"
 
 export const query = graphql`
@@ -30,11 +30,11 @@ const Button = styled.button`
 `
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <>
     <SEO title="Home" />
     <Jumbo description={data.allSite.edges[0].node.siteMetadata.description} />
     <Button color="gray">Comprar</Button>
-  </Layout>
+  </>
 )
 
 export default IndexPage
