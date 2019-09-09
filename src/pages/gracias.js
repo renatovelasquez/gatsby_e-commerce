@@ -11,7 +11,7 @@ export default function gracias() {
         <h2>Compra Exitosa</h2>
         <p>Espero disfrutes tu compra...</p>
         <p>Vuelve pronto</p>
-        <span rol="img" aria-label="emoji">
+        <span role="img" aria-label="emoji">
           emoji
         </span>
         <Link to="/">

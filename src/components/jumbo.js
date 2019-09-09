@@ -1,13 +1,15 @@
 import React from "react"
 import { StyledJumbo } from "../styles/components"
+import { Image } from "./"
 
-export default function jumbo() {
+export default function jumbo({ description }) {
   return (
     <StyledJumbo>
       <div>
         <h2>Consigue todo lo que quieras!!!</h2>
-        <small>Lo mejor a para quien sea.</small>
+        <small>{description}</small>
       </div>
+      <Image name="icon"></Image>
     </StyledJumbo>
   )
 }
